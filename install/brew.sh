@@ -22,6 +22,7 @@ apps=(
   grep --with-default-names
   vim
   wget
+  dockutil
 )
 
 brew install "${apps[@]}"
