@@ -19,10 +19,7 @@ brew upgrade
 apps=(
   coreutils
   git
-  gnu-sed --with-default-names
   grep --with-default-names
-  imagemagick
-  python3
   vim
   wget
 )
