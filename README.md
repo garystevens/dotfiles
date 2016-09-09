@@ -1,11 +1,11 @@
 # dotfiles
 
-This repo is a collection of personal settings and configurations I am currently using. 
+This repo is a collection of personal settings and configurations I am currently using.
 
 
-**Warning:** If you intend to clone or fork this repo, please review all the code first. Make sure you understand the commands before using these settings as you do so at your own risk. 
+**Warning:** If you intend to clone or fork this repo, please review all the code first. Make sure you understand the commands before using these settings as you do so at your own risk.
 
-There are many excellent blogs on getting started with dotfiles such as: 
+There are many excellent blogs on getting started with dotfiles such as:
 
 - [http://dotfiles.github.io/](http://dotfiles.github.io/)
 - Lars Kappert's [Getting started with Dotfiles](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789#.mj47wbku9)
@@ -83,13 +83,12 @@ A global .gitignore file, so I don't have to ignore ```*.DS_Store ```everytime. 
 
 
 ##Installation
-This repo is easilly installed using GIT. Start by cloning it onto your local machine using ```git clone git@github.com:garystevens/dotfiles.git```. Then, ```cd dotfiles```. From there, you can run: 
-```sh install.sh``` to start the script. This will do 2 things:
+This repo is easilly installed using GIT. Start by cloning it onto your local machine using ```git clone git@github.com:garystevens/dotfiles.git```. Then, ```cd dotfiles```. From there, you can run: ```sh install.sh``` to start the script. This will do 2 things:
 
 1. All dotfiles will be copied from this directory into your ~/home directory, so ensure that you are happy to overwrite these files.
-2. All the shell scripts in ```/install``` will run and execute their install commands. 
+2. All the shell scripts in ```/install``` will run and execute their install commands.
 
-Once completed the script will run ```source .bash_profile``` and update your terminal. 
+Once completed the script will run ```source .bash_profile``` and update your terminal.
 
 
 
@@ -101,4 +100,3 @@ This repo was put together buy using bits and pieces of [https://github.com/webp
 
  * Update .bash_profile and .bashrc with correct settings
  * add Dockutil to control OSX dock layout
- 

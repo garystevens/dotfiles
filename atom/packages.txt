@@ -1,0 +1,4 @@
+editorconfig@1.4.1
+file-icons@1.7.19
+linter-jshint@2.1.0
+merge-conflicts@1.4.4

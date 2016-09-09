@@ -7,9 +7,9 @@ nvm alias default 5
 # Globally install with npm
 
 packages=(
-  grunt
-  gulp
-  http-server
+    grunt
+    gulp
+    http-server
 )
 
 npm install -g "${packages[@]}"

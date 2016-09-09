@@ -17,12 +17,12 @@ brew upgrade
 
 # Install packages
 apps=(
-  coreutils
-  git
-  grep --with-default-names
-  vim
-  wget
-  dockutil
+    coreutils
+    git
+    grep --with-default-names
+    vim
+    wget
+    dockutil
 )
 
 brew install "${apps[@]}"

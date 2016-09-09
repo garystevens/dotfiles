@@ -6,19 +6,19 @@ brew tap caskroom/versions
 # Install packages
 
 apps=(
-  charles
-  cyberduck
-  firefox
-  google-chrome
-  mou
-  postman
-  sequel-pro
-  slack
-  sourcetree
-  spotify
-  virtualbox
+    atom
+    charles
+    cyberduck
+    firefox
+    google-chrome
+    mou
+    postman
+    sequel-pro
+    slack
+    sourcetree
+    spotify
+    virtualbox
 )
-
 brew cask install "${apps[@]}"
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
